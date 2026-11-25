@@ -5,6 +5,7 @@
     --slate: #39445c;
     /* títulos */
     --btn: #ffffff;
+    --circle: #000;
     /* botão azul */
     --btn-hover: #e6e8f0;
     --accent: #2b4a7a;
@@ -267,7 +268,7 @@ section {
 }
 
 .mvv {
-    border-top: 4px solid var(--btn);
+    border-top: 4px solid color-mix(in srgb, var(--circle) 20%, transparent);
 }
 
 .markets {
@@ -329,7 +330,7 @@ section {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--btn);
+    background: var(--circle);
     flex-shrink: 0;
 }
 
